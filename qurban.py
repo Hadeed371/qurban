@@ -198,7 +198,7 @@ class __xxx__:
          
             
 os.system("clear")
-        print(logo)
+        
         self.cnt = input('F I L E   P A T H : ')
         self.id = open(self.cnt).read().splitlines()
         os.system('clear')
